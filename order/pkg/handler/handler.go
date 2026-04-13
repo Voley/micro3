@@ -6,11 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/uuid"
-
 	orderv1 "github.com/Voley/micro3/shared/pkg/openapi/order/v1"
 	inventoryv1 "github.com/Voley/micro3/shared/pkg/proto/inventory/v1"
 	paymentv1 "github.com/Voley/micro3/shared/pkg/proto/payment/v1"
+	"github.com/google/uuid"
 )
 
 // Order представляет заказ на постройку космического корабля.

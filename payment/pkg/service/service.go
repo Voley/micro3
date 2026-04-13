@@ -4,10 +4,9 @@ import (
 	"context"
 	"log/slog"
 
+	paymentv1 "github.com/Voley/micro3/shared/pkg/proto/payment/v1"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-
-	paymentv1 "github.com/Voley/micro3/shared/pkg/proto/payment/v1"
 )
 
 // PaymentServer реализует gRPC сервис оплаты

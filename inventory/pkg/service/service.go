@@ -3,12 +3,11 @@ package service
 import (
 	"context"
 
+	inventoryv1 "github.com/Voley/micro3/shared/pkg/proto/inventory/v1"
 	"github.com/google/uuid"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
-
-	inventoryv1 "github.com/Voley/micro3/shared/pkg/proto/inventory/v1"
 )
 
 // Part представляет деталь космического корабля
