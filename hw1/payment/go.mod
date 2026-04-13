@@ -1,5 +1,4 @@
-// TODO: Поменяй имя модуля github.com/student/week_1 на своё и обнови все импорты
-module github.com/student/payment
+module github.com/Voley/micro3/hw1/payment
 
 go 1.26.0
 
@@ -15,4 +14,4 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 )
 
-replace github.com/student/shared => ./../shared
+replace github.com/Voley/micro3/hw1/shared => ./../shared

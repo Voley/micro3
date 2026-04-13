@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	paymentv1 "github.com/student/shared/pkg/proto/payment/v1"
+	paymentv1 "github.com/Voley/micro3/hw1/shared/pkg/proto/payment/v1"
 )
 
 // PaymentServer реализует gRPC сервис оплаты
