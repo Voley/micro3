@@ -1,4 +1,4 @@
-module github.com/Voley/micro3/hw1/order
+module github.com/Voley/micro3/order
 
 go 1.26.0
 
@@ -24,8 +24,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/Voley/micro3/hw1/shared => ./../shared
+replace github.com/Voley/micro3/shared => ./../shared
 
-replace github.com/Voley/micro3/hw1/inventory => ./../inventory
+replace github.com/Voley/micro3/inventory => ./../inventory
 
-replace github.com/Voley/micro3/hw1/payment => ./../payment
+replace github.com/Voley/micro3/payment => ./../payment

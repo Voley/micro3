@@ -193,5 +193,5 @@ formatters: # Форматтеры кода (проверка стиля)
         - Standard  # Стандартная библиотека
         - Default   # Сторонние зависимости
         # TODO: Поменяй prefix на свой модуль (github.com/student → github.com/твой-ник/твой-модуль)
-        - Prefix(github.com/Voley/micro3/hw1)  # Локальные импорты проекта
+        - Prefix(github.com/Voley/micro3)  # Локальные импорты проекта
       no-inline-comments: false  # Разрешить комментарии после импортов (true — запретит)

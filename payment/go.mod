@@ -1,4 +1,4 @@
-module github.com/Voley/micro3/hw1/payment
+module github.com/Voley/micro3/payment
 
 go 1.26.0
 
@@ -14,4 +14,4 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 )
 
-replace github.com/Voley/micro3/hw1/shared => ./../shared
+replace github.com/Voley/micro3/shared => ./../shared

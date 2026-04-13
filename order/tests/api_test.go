@@ -18,12 +18,12 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/test/bufconn"
 
-	invSvc "github.com/Voley/micro3/hw1/inventory/pkg/service"
-	orderHandler "github.com/Voley/micro3/hw1/order/pkg/handler"
-	"github.com/Voley/micro3/hw1/order/tests/testutil"
-	paySvc "github.com/Voley/micro3/hw1/payment/pkg/service"
-	inventoryv1 "github.com/Voley/micro3/hw1/shared/pkg/proto/inventory/v1"
-	paymentv1 "github.com/Voley/micro3/hw1/shared/pkg/proto/payment/v1"
+	invSvc "github.com/Voley/micro3/inventory/pkg/service"
+	orderHandler "github.com/Voley/micro3/order/pkg/handler"
+	"github.com/Voley/micro3/order/tests/testutil"
+	paySvc "github.com/Voley/micro3/payment/pkg/service"
+	inventoryv1 "github.com/Voley/micro3/shared/pkg/proto/inventory/v1"
+	paymentv1 "github.com/Voley/micro3/shared/pkg/proto/payment/v1"
 )
 
 // Предзагруженные UUID и цены деталей (из inventory/cmd/main.go).
