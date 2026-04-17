@@ -5,11 +5,10 @@ import (
 	"net"
 	"os"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/reflection"
-
 	svc "github.com/Voley/micro3/payment/pkg/service"
 	paymentv1 "github.com/Voley/micro3/shared/pkg/proto/payment/v1"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/reflection"
 )
 
 const grpcAddress = ":50052"
